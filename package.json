@@ -1,0 +1,16 @@
+{
+  "name": "instaclone-server",
+  "description": "El servidor de la app Instaclone",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Miguel Angel Torres",
+  "scripts": {
+    "dev": "node ./index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.16.1",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.26"
+  }
+}
