@@ -6,11 +6,16 @@
   "license": "MIT",
   "author": "Miguel Angel Torres",
   "scripts": {
-    "dev": "node ./index.js"
+    "dev": "nodemon ./index.js"
   },
   "dependencies": {
     "apollo-server": "^2.16.1",
+    "bcryptjs": "^2.4.3",
     "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.26"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
